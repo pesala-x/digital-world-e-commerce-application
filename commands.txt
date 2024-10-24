@@ -1,0 +1,4 @@
+// starting command---->
+npm install --legacy-peer-deps
+
+//
