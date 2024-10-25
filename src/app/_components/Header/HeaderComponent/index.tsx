@@ -7,7 +7,7 @@ import { Gutter } from '../../Gutter'
 
 import classes from './index.module.scss'
 import { HeaderNav } from '../Nav'
-
+import MobileNav from '../MobileNav'
 
 const HeeaderComponent = ({ header }: { header: Header }) => {
   return (
@@ -18,7 +18,7 @@ const HeeaderComponent = ({ header }: { header: Header }) => {
         </Link>
 
         <HeaderNav header={header} />
-        <HeaderMobileNav header={header} />
+        <MobileNav header={header} />
       </Gutter>
     </nav>
   )
