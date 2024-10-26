@@ -1,4 +1,4 @@
-const { rules } = require('eslint-config-prettier')
+// const { rules } = require('eslint-config-prettier')
 
 module.exports = {
   root: true,
