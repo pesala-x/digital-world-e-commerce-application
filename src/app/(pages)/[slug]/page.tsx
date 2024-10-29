@@ -12,6 +12,7 @@ import { Gutter } from '../../_components/Gutter'
 import { Hero } from '../../_components/Hero'
 import { generateMeta } from '../../_utilities/generateMeta'
 
+import classes from './index.module.scss'
 // Payload Cloud caches all files through Cloudflare, so we don't need Next.js to cache them as well
 // This means that we can turn off Next.js data caching and instead rely solely on the Cloudflare CDN
 // To do this, we include the `no-cache` header on the fetch requests used to get the data for this page
@@ -32,6 +33,8 @@ export default async function Page({ params: { slug = 'home' } }) {
       slug,
       draft: isDraftMode,
     })
+
+    categories = await fetchDocs<Category>('categories')
   } catch (error) {
     // when deploying this template on Payload Cloud, this page needs to build before the APIs are live
     // so swallow the error here and simply render the page with fallback data where necessary
@@ -55,9 +58,14 @@ export default async function Page({ params: { slug = 'home' } }) {
   return (
     <React.Fragment>
       {slug === 'home' ? (
-        <Gutter>
+        <section className={classes.homeBanner}>
           <Hero {...hero} />
-        </Gutter>
+
+          <Gutter className={classes.home}>
+            {/* <Categories categories={categories} />
+          <Promotion /> */}
+          </Gutter>
+        </section>
       ) : (
         <>
           <Hero {...hero} />
