@@ -14,7 +14,7 @@ const CategoryCard = ({category} : CategoryCardProps) => {
     <Link
     href="/products"
     className={classes.card}
-    // style={{ backgroundImage: `url(${media.url})` }}
+    style={{ backgroundImage: `url(${media.url})` }}
     >
       <p className={classes.title}>{category.title}</p>
     </Link>

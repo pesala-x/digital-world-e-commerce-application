@@ -3,6 +3,7 @@
 .card {
   position: relative;
   background-color: var(--color-dark-50);
+  border-radius: 10px;
   min-height: 360px;
   width: 100%;
   display: flex;
@@ -10,10 +11,29 @@
   justify-content: center;
   padding: 20px;
   cursor: pointer;
-
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  transition: transform 0.4s ease-in-out, box-shadow 0.4s;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  // background: rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  transition: background 0.4s;
+  z-index: 0;
+}
+
+.card:hover::before {
+  // background: rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+  transform: rotate(2deg);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
 }
 
 .title {
