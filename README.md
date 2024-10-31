@@ -29,14 +29,29 @@ Welcome to **Digital World** – a dynamic e-commerce platform designed for tech
 - **Next.js 14** - Modern React framework with enhanced SEO capabilities.
 - **TypeScript** - Ensures robust, scalable code with static typing.
 - **CSS Modules & Styled Components** - Modular and dynamic styling.
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/CSS%20Modules-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS Modules" />
+  <img src="https://img.shields.io/badge/Styled%20Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" alt="Styled Components" />
+</p>
 
 ### Backend
 - **Payload CMS** - Flexible CMS for content and e-commerce management.
 - **Stripe API** - Secure and seamless payment processing.
+<p align="center">
+  <img src="https://img.shields.io/badge/Payload%20CMS-333333?style=for-the-badge&logo=payload&logoColor=white" alt="Payload CMS" />
+  <img src="https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white" alt="Stripe" />
+</p>
   
 ### Dev Tools
 - **Git & GitHub** - Version control and repository management.
 - **Vercel** - Deployment platform for Next.js applications.
+<p align="center">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+</p>
 
 ---
 
