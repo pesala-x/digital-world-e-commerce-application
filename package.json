@@ -24,7 +24,7 @@
   "dependencies": {
     "@payloadcms/bundler-webpack": "^1.0.0",
     "@payloadcms/db-mongodb": "^1.0.0",
-    "@payloadcms/plugin-cloud": "^3.0.0",
+    "@payloadcms/plugin-cloud": "^3.0.2",
     "@payloadcms/plugin-nested-docs": "^1.0.8",
     "@payloadcms/plugin-redirects": "^1.0.0",
     "@payloadcms/plugin-seo": "^1.0.10",
@@ -67,6 +67,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
+    "gh-pages": "^6.2.0",
     "globals": "^15.11.0",
     "nodemon": "^2.0.6",
     "prettier": "^2.7.1",
